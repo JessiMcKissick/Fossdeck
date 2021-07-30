@@ -1,4 +1,5 @@
 # Fossdeck
+## Warning: This project is still relatively young. Software will be buggy and hardware may be flawed.
 ### An open-source modular system for science and fun based on the RP2040 platform and micropython.
 
 ## The hardware
@@ -26,3 +27,18 @@ To install the operating system to your fossdeck:
 8. Select pi pico on the popup
 9. Thonny will flash the OS to your fossdeck
 10. Check your fossdeck's screen. If nothing shows up, check all of your hardware connections and ensure you connected everything to the correct pins.
+
+
+## Creating modules
+The fossdeck is designed with 2 easily accessible expansion ports for various sorts of modules. 
+| Slot | Pins                          | Capabilities                                                       |
+|------|-------------------------------|--------------------------------------------------------------------|
+| 1    | GP3 GP4 GP5 GP6 GP7 GP8       | SPIO (SCK,TX,RC,CSN), I2C1 SDA/SCL, I2C0 SDA/SCL, UART1 TX/RX, PWM |
+| 2    | GP10 GP11 GP12 GP13 GP14 GP15 | SPIO (SCK,TX,RC,CSN), I2C1 SDA/SCL, I2C0 SDA/SCL, UART1 TX/RX, PWM |
+| Both | 3v3 GND                       |                                                                    |
+
+(Pinout of expansion slots will be found here in the future)
+
+
+
+
