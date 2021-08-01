@@ -40,5 +40,6 @@ The fossdeck is designed with 2 easily accessible expansion ports for various so
 (Pinout of expansion slots will be found here in the future)
 
 
-
+## PC software
+A long term goal is to write a software for PC, Mac, and Linux systems to allow less tech-savvy users to automatically write the OS and apps to their fossdecks without any hassle. 
 
